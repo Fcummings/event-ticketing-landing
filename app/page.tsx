@@ -8,7 +8,7 @@ import { Input } from "@/components/ui/input"
 import { AuthModal } from './components/AuthModal'
 import { useAuth } from './context/AuthContext'
 import { collection, getDocs, query, where } from 'firebase/firestore'
-import { db } from './firebase/config'
+import { db, auth } from './firebase/config'
 import Link from 'next/link'
 
 interface Event {
